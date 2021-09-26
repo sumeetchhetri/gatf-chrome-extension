@@ -8,12 +8,6 @@
 		"scripting",
 		"storage"
 	],
-	"content_scripts": [
-	  {
-		"matches": ["http://*/*", "https://*/*"],
-		"js": ["page.js"]
-	  }
-	],
 	"action": {
 	  "default_popup": "popup.html"
 	}
