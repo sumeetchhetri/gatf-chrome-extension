@@ -1,0 +1,20 @@
+{
+	"name": "Gatf Recorder",
+	"manifest_version": 3,
+	"version": "0.1",
+	"description": "Gatf sel recorder extension",
+	"permissions": [
+		"activeTab",
+		"scripting",
+		"storage"
+	],
+	"content_scripts": [
+	  {
+		"matches": ["http://*/*", "https://*/*"],
+		"js": ["page.js"]
+	  }
+	],
+	"action": {
+	  "default_popup": "popup.html"
+	}
+}
