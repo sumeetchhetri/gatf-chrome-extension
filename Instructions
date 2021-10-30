@@ -1,0 +1,4 @@
+Copy the gatf-config-tool folder contents
+then comment the ajax call in the $(document).ready(function() { section
+also change the getReports and getSeleniumReports function
+add the setup.js before index.js in index.html
